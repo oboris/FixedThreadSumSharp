@@ -9,7 +9,6 @@ namespace FixedThreadSumSharp
         private static readonly int threadNum = 5;
         private static readonly int partNum = 18;
 
-        private readonly Thread[] thread = new Thread[threadNum];
 
         static void Main(string[] args)
         {
